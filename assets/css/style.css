@@ -27,6 +27,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif
 }
 
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -49,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #2eafec;
+  background: #56a0a5;
   color: #fff;
 }
 .back-to-top.active {
@@ -65,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 250px;
+  width: 280px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
@@ -113,12 +115,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main {
-  margin-left: 350px;
+  margin-left: 280px;
 }
 
 @media (max-width: 1199px) {
   #header {
-    left: -250px;
+    left: -280px;
   }
 
   #main {
@@ -296,7 +298,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #222;
 }
 .about .content ul {
   list-style: none;
@@ -327,11 +329,12 @@ section {
   padding-bottom: 30px;
 }
 .facts .count-box {
-  padding: 30px;
+  padding: 20px;
   width: 100%;
 }
 .facts .count-box i {
   display: block;
+  margin-top: 10px;
   font-size: 44px;
   color: #9dc7d3;
   float: left;
@@ -345,11 +348,15 @@ section {
   color: #050d18;
   margin-left: 60px;
 }
-.facts .count-box p {
-  padding: 15px 0 0 0;
+.facts .count-box p  {
   margin: 0 0 0 60px;
   font-size: 14px;
   color: #122f57;
+}
+.facts .count-box p strong{
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 15px;
 }
 .facts .count-box a {
   font-weight: 600;
@@ -421,6 +428,12 @@ section {
   font-family: "Poppins", sans-serif;
   color: #050d18;
   margin-bottom: 10px;
+}
+.resume .resume-item h4 em{
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 5px;
+  color: #333;
 }
 .resume .resume-item h5 {
   font-size: 16px;
@@ -598,34 +611,11 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   margin-bottom: 20px;
-}
-.services .icon {
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 54px;
-  height: 54px;
-  background: #9dc7d3;
-  border-radius: 50%;
-  transition: 0.5s;
-  border: 1px solid #9dc7d3;
-}
-.services .icon i {
-  color: #fff;
-  font-size: 24px;
-  line-height: 0;
-}
-.services .icon-box:hover .icon {
-  background: #fff;
-}
-.services .icon-box:hover .icon i {
-  color: #9dc7d3;
+  text-align: center;
 }
 .services .title {
-  margin-left: 80px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin: 15px 0;
   font-size: 18px;
 }
 .services .title a {
@@ -635,9 +625,10 @@ section {
   color: #9dc7d3;
 }
 .services .description {
-  margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+  padding: 0 30px;
+  word-break: keep-all;
 }
 
 /*--------------------------------------------------------------
@@ -863,7 +854,7 @@ section {
   border-radius: 4px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #37b3ed;
+  background: #56a0a5;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -932,7 +923,7 @@ section {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 250px;
+  width: 280px;
   z-index: 9999;
   background: #56a0a5;
 }

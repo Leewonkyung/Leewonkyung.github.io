@@ -125,3 +125,50 @@ $black: #202020;
     opacity: 1;
   }
 }
+
+/*--------------------------------------------------------------
+# about bg
+--------------------------------------------------------------*/
+
+#about{
+  .profile-img{
+    z-index: 1;
+  }
+  .add-bg{
+    position: relative;
+
+    h3{
+      padding: 130px 0 30px
+    }
+
+    &::after{
+      content:'';
+      display: inline-block;
+      width: 130%;
+      height: 120%;
+      background-color: #eee;
+      position: absolute;
+      z-index: -1;
+      top: 10%;
+      left: -10%;
+    }
+  }
+}
+
+.u-line{
+  font-weight: normal;
+  background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #9ed6da 40%);
+}
+
+/*--------------------------------------------------------------
+# skills bg
+--------------------------------------------------------------*/
+#skills.section-bg{
+  margin-left: -350px;
+  margin-right: 80px;
+  background: #f8f8f8;
+
+  .container{
+    margin-left: 520px;    
+  }
+}
