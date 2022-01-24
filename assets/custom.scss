@@ -133,6 +133,11 @@ $black: #202020;
 #about{
   .profile-img{
     z-index: 1;
+
+    img{
+      border-radius: 20px;
+      box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+    }
   }
   .add-bg{
     position: relative;
@@ -157,7 +162,7 @@ $black: #202020;
 
 .u-line{
   font-weight: normal;
-  background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #9ed6da 40%);
+  background: linear-gradient(180deg,rgba(255,255,255,0) 60%, rgba(158,214,218,0.6) 40%);
 }
 
 /*--------------------------------------------------------------
@@ -169,6 +174,6 @@ $black: #202020;
   background: #f8f8f8;
 
   .container{
-    margin-left: 520px;    
+    margin-left: 500px;    
   }
 }

@@ -69,18 +69,20 @@
 --------------------------------------------------------------*/
 #about .profile-img { z-index: 1; }
 
+#about .profile-img img { border-radius: 20px; -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); }
+
 #about .add-bg { position: relative; }
 
 #about .add-bg h3 { padding: 130px 0 30px; }
 
 #about .add-bg::after { content: ''; display: inline-block; width: 130%; height: 120%; background-color: #eee; position: absolute; z-index: -1; top: 10%; left: -10%; }
 
-.u-line { font-weight: normal; background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(255, 255, 255, 0)), color-stop(40%, #9ed6da)); background: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, #9ed6da 40%); }
+.u-line { font-weight: normal; background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(255, 255, 255, 0)), color-stop(40%, rgba(158, 214, 218, 0.6))); background: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, rgba(158, 214, 218, 0.6) 40%); }
 
 /*--------------------------------------------------------------
 # skills bg
 --------------------------------------------------------------*/
 #skills.section-bg { margin-left: -350px; margin-right: 80px; background: #f8f8f8; }
 
-#skills.section-bg .container { margin-left: 520px; }
+#skills.section-bg .container { margin-left: 500px; }
 /*# sourceMappingURL=custom.css.map */
