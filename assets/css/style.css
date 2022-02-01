@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   /* background: url("../img/sample-bg.jpg") top center; */
   background-size: cover;
-  background: #fff;
+  /* background: #fff; */
 }
 /* #hero:before {
   content: "";
@@ -214,6 +214,16 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   z-index: 1;
 } */
+#hero .main-bg-area{
+  background: url("../img/main-bg.jpg") no-repeat center center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 0;
+}
 #hero .hero-container {
   position: relative;
   z-index: 2;
@@ -503,6 +513,14 @@ section {
   align-items: center;
   box-shadow: 3px 3px 15px 3px rgba(0,0,0,0.1);
   background-color: #fff;
+}
+.portfolio .portfolio-wrap p{
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+  font-size: 18px;
+  color: #fff;
+  z-index: 3;
 }
 .portfolio .portfolio-wrap::before {
   content: "";

@@ -82,7 +82,5 @@
 /*--------------------------------------------------------------
 # skills bg
 --------------------------------------------------------------*/
-#skills.section-bg { margin-left: -350px; margin-right: 80px; background: #f8f8f8; }
-
-#skills.section-bg .container { margin-left: 500px; }
+#skills.section-bg { background: #f8f8f8; }
 /*# sourceMappingURL=custom.css.map */
