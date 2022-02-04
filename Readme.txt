@@ -1,6 +1,5 @@
-Thanks for downloading this template!
+### portfolio 
+이원경 포트폴리오
 
-Template Name: iPortfolio
-Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+### URL
+https://Leewonkyung.github.io/
