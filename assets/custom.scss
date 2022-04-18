@@ -9,6 +9,11 @@ $black: #202020;
   max-width: 100%;
   margin-left: 250px;  
   z-index: 2;
+
+  @media all and(max-width: 1200px){
+    margin-left: 0;
+    margin:0 3rem;
+  }
 }
 #intro  div {
   display: inline-block;
@@ -23,7 +28,7 @@ $black: #202020;
   line-height: 1.2;
   display: inline-block;
   position: relative; 
-  font-family: 'Asap', sans-serif;
+  font-family: 'Pretendard', sans-serif;
 }
 #intro .text {
   max-width: 800px;
@@ -39,6 +44,10 @@ $black: #202020;
   }
   a {
     color: $color-main;
+  }
+  &.txt-center{
+    font-size: 30px;
+    font-weight: 600;
   }
 }
 

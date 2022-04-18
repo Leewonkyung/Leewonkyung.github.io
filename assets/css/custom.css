@@ -1,14 +1,18 @@
 #intro { max-width: 100%; margin-left: 250px; z-index: 2; }
 
+@media all and (max-width: 1200px) { #intro { margin-left: 0; margin: 0 3rem; } }
+
 #intro div { display: inline-block; }
 
-#intro .bigger { margin: 0; font-size: 120px; font-weight: 800; padding: 20px 0; text-transform: uppercase; color: #202020; line-height: 1.2; display: inline-block; position: relative; font-family: 'Asap', sans-serif; }
+#intro .bigger { margin: 0; font-size: 120px; font-weight: 800; padding: 20px 0; text-transform: uppercase; color: #202020; line-height: 1.2; display: inline-block; position: relative; font-family: 'Pretendard', sans-serif; }
 
 #intro .text { max-width: 800px; width: 100%; margin-bottom: 0; line-height: 1.5; text-align: left; color: #404040; padding: 20px 0; font-size: 22px; }
 
 #intro .text.txt-center { text-align: center; }
 
 #intro .text a { color: #9dc7d3; }
+
+#intro .text.txt-center { font-size: 30px; font-weight: 600; }
 
 #intro .has-animation { position: relative; margin-bottom: 20px; }
 
