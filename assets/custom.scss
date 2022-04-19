@@ -142,10 +142,17 @@ $black: #202020;
 #about{
   .profile-img{
     z-index: 1;
+    
 
     img{
       border-radius: 20px;
       box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+      transition: all .3s;
+
+      &:hover{
+        transform: translateY(-10px);
+      }
+      
     }
   }
   .add-bg{

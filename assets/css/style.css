@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Pretendard", sans-serif;
   color: #272829;
 }
 
@@ -24,7 +24,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif
+  font-family: "Pretendard", sans-serif
 }
 
 
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Pretendard", sans-serif;
 }
 #header .profile h1 a, #header .profile h1 a:hover {
   color: #222;
@@ -301,6 +301,8 @@ section {
 }
 .section-title p {
   margin-bottom: 0;
+  font-size: 1.2rem;
+  word-break: keep-all;
 }
 
 /*--------------------------------------------------------------
@@ -308,7 +310,7 @@ section {
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 700;
-  font-size: 26px;
+  font-size: 1.8rem;
   color: #222;
 }
 .about .content ul {
@@ -319,6 +321,7 @@ section {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  font-size: 1.15rem;
 }
 .about .content ul strong {
   margin-right: 10px;
@@ -368,7 +371,7 @@ section {
 }
 .facts .count-box p  {
   margin: 0 0 0 60px;
-  font-size: 13px;
+  font-size: 1rem;
   color: #122f57;
 }
 .facts .count-box p strong{
@@ -382,7 +385,7 @@ section {
   margin-top: 20px;
   color: #122f57;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Pretendard", sans-serif;
   transition: ease-in-out 0.3s;
 }
 .facts .count-box a:hover {
@@ -409,6 +412,10 @@ section {
   margin-top: 10px;
   margin-bottom: 20px;
 }
+.skillWrap .text-muted{ 
+  font-size: 1.1rem; 
+  word-break: keep-all;
+}
 
 /*--------------------------------------------------------------
 # Resume
@@ -431,7 +438,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Pretendard", sans-serif;
   color: #050d18;
   margin-bottom: 10px;
 }
@@ -514,6 +521,11 @@ section {
   align-items: center;
   box-shadow: 3px 3px 15px 3px rgba(0,0,0,0.1);
   background-color: #fff;
+  transition: all .3s;
+}
+.portfolio .portfolio-wrap:hover{
+  transform: translateY(-10px);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
 .portfolio .portfolio-wrap p{
   position: absolute;
@@ -550,7 +562,7 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(86, 160, 165, 0.75);
+  background: rgba(0, 0, 0, 0.75);
   transition: 0.3s;
   width: 50%;
 }
@@ -862,7 +874,7 @@ section {
   font-size: 14px;
 }
 .contact .php-email-form input {
-  height: 44px;
+  height: 40px;
 }
 .contact .php-email-form textarea {
   padding: 10px 15px;

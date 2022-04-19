@@ -73,7 +73,9 @@
 --------------------------------------------------------------*/
 #about .profile-img { z-index: 1; }
 
-#about .profile-img img { border-radius: 20px; -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); }
+#about .profile-img img { border-radius: 20px; -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); -webkit-transition: all .3s; transition: all .3s; }
+
+#about .profile-img img:hover { -webkit-transform: translateY(-10px); transform: translateY(-10px); }
 
 #about .add-bg { position: relative; }
 
