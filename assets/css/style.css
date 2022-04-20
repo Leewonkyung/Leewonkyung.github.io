@@ -621,7 +621,11 @@ section {
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
-  font-size: 15px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.portfolio-details .portfolio-info ul li i{
+  margin-left: -18px;
 }
 .portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
@@ -745,10 +749,13 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: 130px;
+  padding-bottom: 100px;
+}
+.contact .section-title{
+  padding-bottom: 50px;
 }
 .contact .info {
-  padding: 30px;
+  padding: 50px 30px;
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -769,19 +776,18 @@ section {
 }
 .contact .info h4 {
   padding: 0 0 0 60px;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: #050d18;
 }
 .contact .info p {
   padding: 0 0 10px 60px;
-  margin-bottom: 20px;
-  font-size: 16px;
+  margin-bottom: 0;
+  font-size: 18px;
   color: #173b6c;
-}
-.contact .info .email p {
-  padding-top: 5px;
+  word-break: break-all;
 }
 .contact .info .social-links {
   padding-left: 60px;
@@ -808,103 +814,34 @@ section {
   background: #9dc7d3;
   color: #fff;
 }
-.contact .php-email-form {
-  width: 100%;
-  padding: 30px;
-  background: #fff;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-  border-radius: 20px;
+img.hand {
+  width: 32px;
+  height: 32px;
+  margin-top: -20px;
+animation: target_image 2s; 
+animation-iteration-count: infinite;
+animation-duration: 1s;
+transform-origin: 25% 100%;
+transform: rotate(60deg);
 }
-.contact .php-email-form .form-group {
-  padding-bottom: 8px;
+
+@keyframes target_image {
+0% { transform: rotate(70deg); }
+50% { transform: rotate(25deg) }
+100% { transform: rotate(70deg); }
 }
-.contact .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
+
+#contact .btn-area {
+  padding: 100px 0;
 }
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-.contact .php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-.contact .php-email-form .loading:before {
-  content: "";
+#contact .btn-area .btn{
   display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-.contact .php-email-form .form-group {
-  margin-bottom: 15px;
-}
-.contact .php-email-form label {
-  padding-bottom: 8px;
-}
-.contact .php-email-form input, .contact .php-email-form textarea {
+  width: 200px;
+  height: 60px;
+  margin: 0 20px;
   border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-.contact .php-email-form input {
-  height: 40px;
-}
-.contact .php-email-form textarea {
-  padding: 10px 15px;
-}
-.contact .php-email-form button[type=submit] {
-  background: #9dc7d3;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-.contact .php-email-form button[type=submit]:hover {
-  background: #56a0a5;
-}
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+  font-size: 22px;
+  border-bottom: 1px solid #00605c;
 }
 
 /*--------------------------------------------------------------
