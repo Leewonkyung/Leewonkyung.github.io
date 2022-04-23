@@ -14,6 +14,11 @@ $(document).ready(function() {
   setTimeout(function(){
     mainBg.animate({opacity:"0.5"},1000);
   },3000)
+
+  $('.back-to-top').click( function() {
+    location.reload();
+  });
+  
 });
 
 var mHtml = $("html");
