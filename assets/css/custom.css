@@ -1,16 +1,16 @@
-#intro { max-width: 100%; z-index: 2; padding-right: 3%; }
+#intro { max-width: 100%; z-index: 2; padding-right: 10%; }
 
 #intro div { display: inline-block; }
 
-#intro .bigger { margin: 0; font-size: 120px; font-weight: 800; padding: 20px 0; text-transform: uppercase; color: #202020; line-height: 1.2; display: inline-block; position: relative; font-family: 'Pretendard', sans-serif; }
+#intro .bigger { margin: 0; font-size: 125px; font-weight: 800; padding: 20px 0; text-transform: uppercase; color: #202020; line-height: 1.2; display: inline-block; position: relative; }
 
-#intro .text { max-width: 800px; width: 100%; margin-bottom: 0; line-height: 1.5; text-align: left; color: #404040; padding: 20px 0; font-size: 22px; }
+#intro .text { max-width: 800px; width: 100%; margin-bottom: 0; line-height: 1.5; text-align: left; color: #404040; padding: 20px 0; font-size: 22px; font-weight: 300; }
 
 #intro .text.txt-center { text-align: center; }
 
 #intro .text a { color: #9dc7d3; }
 
-#intro .text.txt-center { font-size: 30px; font-weight: 600; }
+#intro .text.txt-center { font-size: 28px; font-weight: 600; color: #54929d; }
 
 #intro .has-animation { position: relative; margin-bottom: 20px; }
 

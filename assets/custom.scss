@@ -9,7 +9,7 @@ $black: #202020;
   max-width: 100%;
   // margin-left: 250px;  
   z-index: 2;
-  padding-right: 3%;
+  padding-right: 10%;
 
   // @media all and(max-width: 1200px){
   //   margin-left: 0;
@@ -21,7 +21,7 @@ $black: #202020;
 }
 #intro .bigger {
   margin: 0;
-  font-size: 120px;
+  font-size: 125px;
   font-weight: 800;
   padding: 20px 0;
   text-transform: uppercase;
@@ -29,7 +29,7 @@ $black: #202020;
   line-height: 1.2;
   display: inline-block;
   position: relative; 
-  font-family: 'Pretendard', sans-serif;
+  // font-family: 'Pretendard', sans-serif;
 }
 #intro .text {
   max-width: 800px;
@@ -40,6 +40,7 @@ $black: #202020;
   color: #404040;
   padding: 20px 0; 
   font-size: 22px;
+  font-weight: 300;
   &.txt-center {
     text-align: center;
   }
@@ -47,8 +48,9 @@ $black: #202020;
     color: $color-main;
   }
   &.txt-center{
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 600;
+    color: #54929d;
   }
 }
 
