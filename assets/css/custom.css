@@ -1,8 +1,12 @@
 #intro { max-width: 100%; z-index: 2; padding-right: 10%; }
 
+@media all and (max-width: 1320px) { #intro { padding-right: 0; } }
+
 #intro div { display: inline-block; }
 
 #intro .bigger { margin: 0; font-size: 125px; font-weight: 800; padding: 20px 0; text-transform: uppercase; color: #202020; line-height: 1.2; display: inline-block; position: relative; }
+
+@media all and (max-width: 1320px) { #intro .bigger { font-size: 80px; } }
 
 #intro .text { max-width: 800px; width: 100%; margin-bottom: 0; line-height: 1.5; text-align: left; color: #404040; padding: 20px 0; font-size: 22px; font-weight: 300; }
 
@@ -11,6 +15,8 @@
 #intro .text a { color: #9dc7d3; }
 
 #intro .text.txt-center { font-size: 28px; font-weight: 600; color: #54929d; }
+
+@media all and (max-width: 1320px) { #intro .text.txt-center { font-size: 1.2rem; background: #fff; padding: 0 0.2rem; } }
 
 #intro .has-animation { position: relative; margin-bottom: 20px; }
 
@@ -79,7 +85,11 @@
 
 #about .add-bg { position: relative; padding-left: 30px; }
 
+@media all and (max-width: 1320px) { #about .add-bg { padding-left: inherit; } }
+
 #about .add-bg h3 { padding: 130px 0 30px; }
+
+@media all and (max-width: 1320px) { #about .add-bg h3 { padding: 5rem 0 1.5rem; } }
 
 #about .add-bg::after { content: ''; display: inline-block; width: 150%; height: 93%; background-color: #eee; position: absolute; z-index: -1; top: 10%; left: -10%; }
 

@@ -38,6 +38,11 @@ p{
   font-family: 'NEXON Gothic';
 }
 
+@media (max-width: 991px) {
+  body{
+    overflow-y: scroll;
+  }
+}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -297,7 +302,7 @@ p{
     background-attachment: fixed;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -320,7 +325,14 @@ p{
   height: 100%;
   margin-left: -40%;
 }
-
+@media (max-width: 767px) {
+  #hero{
+    padding: 0 0.5rem;
+  }
+  #hero .home-image{
+    display: none;
+  }
+}
 
 /*--------------------------------------------------------------
 # Sections General
@@ -359,6 +371,12 @@ section {
   margin-bottom: 0;
   font-size: 1.2rem;
   word-break: keep-all;
+}
+
+@media (max-width: 767px) {
+  .section-title p {
+    font-size: 1rem;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -452,6 +470,16 @@ section {
 .facts .count-box a:hover {
   color: #1f5297;
 }
+
+@media (max-width: 1320px) {
+  .about .content ul li{
+    font-size: 0.95rem;
+  }
+  .facts .count-box p{
+    font-size: 0.8rem;
+  }
+}
+
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
@@ -1040,6 +1068,11 @@ transform: rotate(60deg);
   overflow: hidden;
   opacity: 0.5;
 }
+@media (max-width: 991px) {
+  .contact .contact-image{
+    width: 80%;
+  }
+}
 
 
 /*--------------------------------------------------------------
@@ -1093,7 +1126,7 @@ transform: rotate(60deg);
   width: 100%;
   left: 0;
   bottom: 0;
-  z-index: 9999;
+  z-index: 995;
   background: #56a0a5;
 }
 #footer .copyright {
@@ -1111,14 +1144,20 @@ transform: rotate(60deg);
   color: rgba(255,255,255,0.1);
 }
 @media (max-width: 1199px) {
-  #footer {
-    position: static;
-    width: auto;
-    padding-right: 20px 15px;
-  }
+
 }
 
 
 .section{
   height: 100vh;
+}
+
+@media (max-width: 991px) {
+  #hero,
+  #contact{
+    height: 100vh !important;
+  }
+  section{
+    height: inherit !important;
+  }
 }
