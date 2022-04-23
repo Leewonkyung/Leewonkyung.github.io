@@ -1,6 +1,4 @@
-#intro { max-width: 100%; margin-left: 250px; z-index: 2; }
-
-@media all and (max-width: 1200px) { #intro { margin-left: 0; margin: 0 3rem; } }
+#intro { max-width: 100%; z-index: 2; padding-right: 3%; }
 
 #intro div { display: inline-block; }
 
@@ -71,22 +69,23 @@
 /*--------------------------------------------------------------
 # about bg
 --------------------------------------------------------------*/
+#about { padding: 50px 0; }
+
 #about .profile-img { z-index: 1; }
 
 #about .profile-img img { border-radius: 20px; -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); -webkit-transition: all .3s; transition: all .3s; }
 
-#about .profile-img img:hover { -webkit-transform: translateY(-10px); transform: translateY(-10px); }
+#about .profile-img img:hover { -webkit-transform: translateY(-10px); transform: translateY(-10px); border-radius: 50%; }
 
-#about .add-bg { position: relative; }
+#about .add-bg { position: relative; padding-left: 30px; }
 
 #about .add-bg h3 { padding: 130px 0 30px; }
 
-#about .add-bg::after { content: ''; display: inline-block; width: 130%; height: 120%; background-color: #eee; position: absolute; z-index: -1; top: 10%; left: -10%; }
+#about .add-bg::after { content: ''; display: inline-block; width: 150%; height: 93%; background-color: #eee; position: absolute; z-index: -1; top: 10%; left: -10%; }
 
 .u-line { font-weight: normal; background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(255, 255, 255, 0)), color-stop(40%, rgba(158, 214, 218, 0.6))); background: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, rgba(158, 214, 218, 0.6) 40%); }
 
 /*--------------------------------------------------------------
 # skills bg
 --------------------------------------------------------------*/
-#skills.section-bg { background: #f8f8f8; }
 /*# sourceMappingURL=custom.css.map */

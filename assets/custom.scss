@@ -7,13 +7,14 @@ $black: #202020;
 // }
 #intro {
   max-width: 100%;
-  margin-left: 250px;  
+  // margin-left: 250px;  
   z-index: 2;
+  padding-right: 3%;
 
-  @media all and(max-width: 1200px){
-    margin-left: 0;
-    margin:0 3rem;
-  }
+  // @media all and(max-width: 1200px){
+  //   margin-left: 0;
+  //   margin:0 3rem;
+  // }
 }
 #intro  div {
   display: inline-block;
@@ -140,10 +141,11 @@ $black: #202020;
 --------------------------------------------------------------*/
 
 #about{
+  padding: 50px 0;
+
   .profile-img{
     z-index: 1;
     
-
     img{
       border-radius: 20px;
       box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
@@ -151,12 +153,14 @@ $black: #202020;
 
       &:hover{
         transform: translateY(-10px);
+        border-radius: 50%;
       }
       
     }
   }
   .add-bg{
     position: relative;
+    padding-left: 30px;
 
     h3{
       padding: 130px 0 30px
@@ -165,8 +169,8 @@ $black: #202020;
     &::after{
       content:'';
       display: inline-block;
-      width: 130%;
-      height: 120%;
+      width: 150%;
+      height: 93%;
       background-color: #eee;
       position: absolute;
       z-index: -1;
@@ -184,6 +188,6 @@ $black: #202020;
 /*--------------------------------------------------------------
 # skills bg
 --------------------------------------------------------------*/
-#skills.section-bg{
-  background: #f8f8f8;
-}
+// #skills.section-bg{
+//   background: #f8f8f8;
+// }
