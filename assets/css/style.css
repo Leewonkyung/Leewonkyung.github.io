@@ -153,12 +153,13 @@ p{
 }
 .nav-menu a, .nav-menu a:focus {
   width: fit-content;
+  min-height: 30px;
   min-width: 120px;
   display: flex;
   align-items: center;
   color: #6f7180;
-  padding: 12px 15px;
-  margin-bottom: 8px;
+  padding: 0;
+  margin: 10px;
   transition: 0.3s;
   font-size: 15px;
 }
@@ -167,9 +168,33 @@ p{
   padding-right: 8px;
   color: #6f7180;
 }
-.nav-menu a span{display: none;}
+.nav-menu a span{
+  display: none;
+  position: relative;
+	background: #00605c;
+	border-radius: .4em;
+  padding: 0.5em 0.8em;
+  margin-left: 5px;
+  line-height: 1;
+  color: #fff;
+}
+.nav-menu a span:after{
+  content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 5px solid transparent;
+	border-right-color: #00605c;
+	border-left: 0;
+	margin-top: -5px;
+	margin-left: -5px;
+}
 .nav-menu a:hover span,
-.nav-menu a.active span{display: block;}
+.nav-menu a.active span{
+  display: block;
+}
 
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
   text-decoration: none;

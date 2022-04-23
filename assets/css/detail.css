@@ -1,0 +1,11 @@
+#header{
+  width: 280px;
+  background: #deeaed;
+}
+#main{
+  margin-left: 280px;
+}
+.nav-menu{
+  height: 50vh;
+  display: flex;
+}
