@@ -4,11 +4,13 @@
 
 #intro div { display: inline-block; }
 
-#intro .bigger { margin: 0; font-size: 125px; font-weight: 800; padding: 20px 0; text-transform: uppercase; color: #202020; line-height: 1.2; display: inline-block; position: relative; }
+#intro .bigger { margin: 0; font-size: 125px; font-weight: 800; padding: 20px 0; text-transform: uppercase; color: #202020; line-height: 1.2; display: inline-block; position: relative; font-family: 'NEXON Gothic Bold', sans-serif; }
 
 @media all and (max-width: 1320px) { #intro .bigger { font-size: 80px; } }
 
-#intro .text { max-width: 800px; width: 100%; margin-bottom: 0; line-height: 1.5; text-align: left; color: #404040; padding: 20px 0; font-size: 22px; font-weight: 300; }
+#intro .text { max-width: 800px; width: 100%; margin-bottom: 0; line-height: 1.5; text-align: left; color: #404040; padding: 20px 0; font-size: 22px; }
+
+#intro .text b { font-weight: 800; }
 
 #intro .text.txt-center { text-align: center; }
 

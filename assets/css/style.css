@@ -1,16 +1,15 @@
-/**
-* Template Name: iPortfolio - v3.7.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 @font-face {
   font-family: 'NEXON Gothic';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NEXON Gothic Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF Bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -174,27 +173,31 @@ p{
   color: #6f7180;
 }
 .nav-menu a span{
-  display: none;
   position: relative;
-	background: #00605c;
-	border-radius: .4em;
-  padding: 0.5em 0.8em;
   margin-left: 5px;
   line-height: 1;
-  color: #fff;
 }
-.nav-menu a span:after{
-  content: '';
-	position: absolute;
-	left: 0;
-	top: 50%;
-	width: 0;
-	height: 0;
-	border: 5px solid transparent;
-	border-right-color: #00605c;
-	border-left: 0;
-	margin-top: -5px;
-	margin-left: -5px;
+@media (min-width: 1200px){
+  .nav-menu a span{
+    display: none;
+    background: #00605c;
+    border-radius: .4em;
+    padding: 0.5em 0.8em;
+    color: #fff;
+  }
+  .nav-menu a span:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-right-color: #00605c;
+    border-left: 0;
+    margin-top: -5px;
+    margin-left: -5px;
+  }
 }
 .nav-menu a:hover span,
 .nav-menu a.active span{
@@ -238,6 +241,8 @@ p{
 }
 .mobile-nav-active #header {
   left: 0;
+  width: 280px;
+  background: #9dc7d3;
 }
 
 /*--------------------------------------------------------------
