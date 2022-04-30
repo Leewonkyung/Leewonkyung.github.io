@@ -18,6 +18,13 @@ $(document).ready(function() {
   $('.back-to-top').click( function() {
     location.reload();
   });
+
+  $("#navbar ul li a").on("click", function(){ 
+    const num = $("#navbar ul li a").index($(this));
+
+    page = num + 1;
+
+  });
   
 });
 
@@ -35,6 +42,18 @@ window.addEventListener("wheel", function(e){
 mHtml.animate({scrollTop : 0}, 10);
 history.scrollRestoration = "manual" //새로고침 시 초기상태로 돌리기 / manual = 복원안함, auto = 복원
 
+
+$(window).scroll(function () {
+
+  var height = $(document).scrollTop();
+  // var sectionTop = $('.section');
+
+  for(let i = 0; i < $(".section").length; i++) {
+    let articleTop = $(".section").eq(i).offset().top;
+  }
+}); 
+
+
 // 휠 이벤트 처리
 $(window).on("wheel", function(e) {
   // 스크롤 효과가 쌓이지 않도록 스크롤이 진행되는 동안 반생하는 wheel 이벤트는 무시
@@ -51,3 +70,4 @@ $(window).on("wheel", function(e) {
     mHtml.animate({scrollTop : posTop});
   }
 })
+
