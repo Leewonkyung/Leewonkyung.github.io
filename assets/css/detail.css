@@ -2,7 +2,7 @@
   width: 280px;
   background: #deeaed;
 }
-#main{
+#detail-main{
   margin-left: 280px;
 }
 .nav-menu{
@@ -11,7 +11,7 @@
 }
 
 @media (max-width: 767px) {
-  #main{
+  #detail-main{
     margin-left: 0;
   }
 }

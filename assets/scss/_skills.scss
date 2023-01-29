@@ -1,0 +1,81 @@
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+.skills {
+	position: relative;
+	.section-title {
+		padding-bottom: 0;
+		h2 {
+			opacity: 0.3;
+			font-size: 100px;
+			margin-bottom: 0;
+			padding-bottom: 0;
+			text-align: right;
+			&::after {
+				display: none;
+			}
+		}
+	}
+	.row {
+		>div {
+			padding: 25px;
+		}
+	}
+}
+.skills.section-bg {
+	background-image: linear-gradient(to bottom right, #fff, #cff1fa);
+}
+.skill-icon {
+	display: inline-block;
+	width: 4.5em;
+	height: 4.5em;
+	line-height: 4.5em;
+	margin-top: 10px;
+	img {
+		max-width: 100%;
+	}
+}
+#skill-icon5 {
+	img {
+		width: 110%;
+	}
+}
+.skill-heading {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.skillWrap {
+    position: relative;
+	z-index: 1;
+	background: #fff;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	&::before {
+		content: '';
+		display: block;
+		width: 500px;
+		height: 500px;
+		position: absolute;
+		background: #81a1ae;
+		left: -30px;
+		top: -30px;
+		z-index: -1;
+	}
+	&::after {
+		content: '';
+		display: block;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background: #fff;
+		left: 0;
+		top: 0;
+		z-index: -1;
+	}
+
+	.text-muted {
+		font-size: 1rem;
+		color: #666 !important;
+		word-break: keep-all;
+	}
+	
+}
