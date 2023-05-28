@@ -59,7 +59,7 @@ var scroll = function(){
   
   var wheel = function(e){
       if(e.originalEvent.wheelDelta < 0){
-          if(moveIndex < 4){
+          if(moveIndex < $nav.length - 1){
               moveIndex += 1;
               moving(moveIndex);
           };
