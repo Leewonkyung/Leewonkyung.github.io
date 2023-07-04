@@ -78,7 +78,7 @@
     z-index: 2;
     padding-right: 10%;
   
-    @media all and(max-width: 1320px){
+    @media all and (max-width: 1320px){
       padding-right: 0;
     }
 
@@ -98,7 +98,7 @@
         position: relative; 
         font-family: 'NEXON Gothic Bold', sans-serif;
 
-        @media all and(max-width: 1320px){
+        @media all and (max-width: 1320px){
             font-size: 80px;
         }
     }
@@ -127,7 +127,7 @@
             color: #54929d;
             text-align: center;
 
-            @media all and(max-width: 1320px){
+            @media all and (max-width: 1320px){
                 font-size: 1.2rem;
                 background: #fff;
                 padding: 0 0.2rem;
