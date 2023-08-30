@@ -77,7 +77,7 @@ var scroll = function(){
       moveCntTop = moveCnt.offset().top;
       $("html ,body").stop().animate({
           scrollTop: moveCntTop
-      }, 1000, function(){
+      }, 500, function(){
         time = false; // 휠 이벤트가 끝나면 false로 변경
       });
       $nav.parent("li").eq(index).addClass("on").siblings().removeClass("on");

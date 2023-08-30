@@ -127,3 +127,14 @@
     bottom: 0;
   }
   
+
+
+  .portfolio{
+    .swiper{
+      height: 100vh;
+      overflow: visible !important;
+      .swiper-slide{
+        height: auto;
+      }
+    }
+  }
