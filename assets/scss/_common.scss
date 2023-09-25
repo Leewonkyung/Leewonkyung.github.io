@@ -174,8 +174,8 @@ $black: #202020;
 }
 
 
-.section{
-  height: 100vh;
+section{
+  height: 100vh !important;
 }
 
 @media (max-width: 991px) {
