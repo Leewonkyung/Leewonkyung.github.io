@@ -988,14 +988,6 @@ section {
   bottom: 0;
 }
 
-.portfolio .swiper {
-  height: 100vh;
-  overflow: visible !important;
-}
-.portfolio .swiper .swiper-slide {
-  height: auto;
-}
-
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
