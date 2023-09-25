@@ -4,7 +4,12 @@ $(document).ready(function() {
       $(this).addClass('animate-in');
     });
   });
-
+  AOS.init({
+    duration: 1000,
+    easing: 'ease-in-out',
+    once: true,
+    mirror: false
+  })
 });
 
 var scroll = function(){
@@ -51,6 +56,17 @@ var scroll = function(){
       winH = $(window).height();
       $cnt.children("section").height(winH);
       $("html ,body").scrollTop(moveIndex.scrollTop);
+
+      if (window.matchMedia("(max-width: 992px)").matches) {
+        $('.back-to-top').click( function() {    
+          $("html ,body").scrollTop(0);
+        });
+      }else{
+        $('.back-to-top').click( function() {   
+          location.reload();
+          AOS.refresh();
+        });
+      }
   };
   
   var wheel = function(e){
@@ -82,15 +98,3 @@ var scroll = function(){
 };
 
 scroll();
-
-$(window).resize(function(){      
-  if (window.matchMedia("(max-width: 992px)").matches) {
-    $('.back-to-top').click( function() {    
-      $("html ,body").scrollTop(0);
-    });
-  }else{
-    $('.back-to-top').click( function() {   
-      location.reload();
-    });
-  }
-});
