@@ -5,13 +5,18 @@
 #detail-main{
   margin-left: 280px;
 }
+.mobile-nav-active{
+  #detail-main{
+    margin-left: 280px;
+  }
+}
 .nav-menu{
   height: 50vh;
   display: flex;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1199px) {
   #detail-main{
-    margin-left: 0;
+    margin-left: 0;    
   }
 }

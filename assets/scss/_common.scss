@@ -137,7 +137,12 @@ $black: #202020;
 
 @media (max-width: 1199px) {
   #header {
-    left: -280px;
+    &.main-header{
+      left: -280px;
+    }
+    &:not(.main-header){
+      left: -280px;
+    }
   }
 }
 
@@ -173,17 +178,22 @@ $black: #202020;
 
 }
 
-
-section{
-  height: 100vh !important;
+.content{
+  section{
+    height: 100vh !important;
+  }
 }
+
 
 @media (max-width: 991px) {
   #hero,
   #contact{
     height: 100vh !important;
   }
-  section{
-    height: inherit !important;
+  .content{
+    section{
+      height: inherit !important;
+    }
   }
+
 }
